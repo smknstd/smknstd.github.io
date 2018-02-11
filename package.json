@@ -1,0 +1,19 @@
+{
+  "name": "freelancing",
+  "version": "1.0.0",
+  "description": "homepage for Arnaud Becher freelancing activity",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smknstd/smknstd.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smknstd/smknstd.github.io/issues"
+  },
+  "homepage": "https://github.com/smknstd/smknstd.github.io#readme"
+}

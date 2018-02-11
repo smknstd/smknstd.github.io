@@ -1,0 +1,48 @@
+.nice-grey {
+    color: #6b7c93;
+}
+
+.nice-blue {
+    background-color: #0264ff !important;
+    color: white !important;
+    font-weight: bold;
+}
+
+.nice-light-blue {
+    background-color: #aac9ff!important;
+    color: white !important;
+    font-weight: bold;
+}
+
+.nice-yellow {
+    background-color: #fffb93!important;
+    color: white !important;
+    font-weight: bold;
+}
+
+.nice-pink {
+    background-color: #ff98a4!important;
+    color: white !important;
+    font-weight: bold;
+}
+
+.nice-light-pink {
+    background-color: #ffb4be!important;
+    color: white !important;
+    font-weight: bold;
+}
+
+.nice-dark-pink {
+    background-color: #ff6e82!important;
+    color: white !important;
+    font-weight: bold;
+}
+
+.timeline-container {
+    max-width: 480px;
+    margin: auto;
+}
+
+.main-text {
+    max-width: 700px;
+}
