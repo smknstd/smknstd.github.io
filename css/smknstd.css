@@ -14,10 +14,18 @@
     font-weight: bold;
 }
 
+.nice-light-blue-back {
+    background-color: #c5daff!important;
+    color: #263142 !important;
+    font-weight: bold !important;
+    padding: 0 5px;
+}
+
 .nice-yellow {
     background-color: #fffb93!important;
-    color: white !important;
-    font-weight: bold;
+    color: #667182 !important;
+    font-weight: bold !important;
+    padding: 0 5px;
 }
 
 .nice-pink {
@@ -45,4 +53,35 @@
 
 .main-text {
     max-width: 700px;
+}
+
+.title {
+    margin-top: 1.5em;
+    margin-bottom: 4.5rem !important;
+}
+
+.card {
+    max-width: 480px;
+    margin: auto;
+    border-radius: 6px;
+}
+
+.duotone-portrait {
+    border-radius: 6px;
+}
+
+.subtitle {
+    text-align: left;
+    max-width: 480px;
+    margin: auto;
+}
+
+p {
+    padding-bottom: 13px;
+}
+
+.contact-me {
+    text-align: center;
+    padding-bottom: 33px;
+    padding-top: 20px;
 }
