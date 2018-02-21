@@ -85,3 +85,12 @@ p {
     padding-bottom: 33px;
     padding-top: 20px;
 }
+
+p.location-container {
+    font-style: italic;
+    color: #ff98a4;
+}
+
+.location {
+    font-size: 0.9em;
+}
