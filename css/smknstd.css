@@ -94,3 +94,7 @@ p.location-container {
 .location {
     font-size: 0.9em;
 }
+
+#copyButton {
+    margin-top: 4px;
+}

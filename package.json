@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/smknstd/smknstd.github.io/issues"
   },
-  "homepage": "https://github.com/smknstd/smknstd.github.io#readme"
+  "homepage": "https://github.com/smknstd/smknstd.github.io#readme",
+  "dependencies": {
+    "clipboard": "^1.7.1",
+    "tippy.js": "^2.2.3"
+  }
 }
