@@ -98,3 +98,18 @@ p.location-container {
 #copyButton {
     margin-top: 4px;
 }
+
+.other-lang {
+    padding-top: 10px;
+    font-weight: 500;
+    color: rgb(167, 167, 167);
+}
+
+.other-lang a {
+    color: #e9a8b7;
+}
+
+.other-lang a:hover {
+    color: #e9a8b7;
+    text-decoration: underline;
+}
