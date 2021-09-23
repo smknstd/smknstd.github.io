@@ -26,31 +26,25 @@
                         </figure>
                     </div>
                 </div>
-                <div class="other-lang">
-                    (Psst, il y a aussi une version <a href="fr.html">en français</a>)
-                </div>
                 <h1 class="title">
-                    Hi, I'm Arnaud, an experienced web developper
+                    Hi, I'm Arnaud, an experienced web developer
                 </h1>
                 <h2 class="subtitle">
                     <p>
-                        Who am I? I'm a super curious and passionate 35 yo bearded guy, based in Alsace (France).
+                        Who am I? I'm a super curious and passionate 38 yo bearded guy, based in Alsace (France).
                     </p>
                     <p>
-                        I used to label myself as <span class="nice-yellow">backend</span> oriented, because I like databases and the command line. But since complexity has now shifted
-                        I spend lots of energy trying to keep up with the current <span class="nice-yellow">frontend</span> madness (without going nuts).
+                        If I'd need to label myself it would be <span class="nice-yellow">backend</span> as my main interests are databases, devops, monitoring, serverless, etc.
+                        I also enjoy taking care of the users, and quite obsessed with designing <span class="nice-yellow">UX</span> (that don't suck totally).
                     </p>
                     <p>
-                        Along this journey, I discovered that I enjoy taking care of the users, designing beautiful interfaces
-                        and sophisticated <span class="nice-yellow">UX</span>.
+                        Sharing knowledge is important to me. I attend meetups on a regular basis to keep on learning and meet great people. And even sometimes give talks.
                     </p>
                     <p>
-                        Sharing knowledge is important to me. I attend to meetups on a regular basis to keep on learning and meet great people.
-                        And even sometimes give talks about <span class="nice-yellow">javascript</span>, rest <span class="nice-yellow">APIs</span> or modern module bundling.
-                        I humbly contribute to open source projects.
+                        I like to share my knowledge in blog posts, update outdated documentations and humbly contribute to open source projects.
                     </p>
                     <p>
-                        On my free time, you'll find me reading, riding my bike, harvesting vegetables or relaxing at some sauna.
+                        On my free time, you'll find me reading books, riding my bike, cooking or relaxing at some sauna.
                     </p>
                     <p>
                         Feel free to write me an email.
@@ -94,24 +88,25 @@
                         var clipboardDemos = new Clipboard('[data-clipboard-smknstd]');
                         clipboardDemos.on('success', function(e) {
                             e.clearSelection();
-                            console.info('Action:', e.action);
-                            console.info('Text:', e.text);
-                            console.info('Trigger:', e.trigger);
                             copyButton._tippy.enable();
                             copyButton._tippy.show();
                         });
                         clipboardDemos.on('error', function(e) {
-                            console.error('Action:', e.action);
-                            console.error('Trigger:', e.trigger);
                             copyButton.setAttribute("title", fallbackMessage(e.action));
                             copyButton._tippy.show();
                         });
                     </script>
                     <p>
-                        You can find me on <a href="https://twitter.com/smknstd">twitter</a> where I share thoughts and links.
-                    </p>
-                    <p>
-                        See you soon!
+                        <div class='content'>
+                        <b>More from me:</b>
+                            <ul>
+                                <li><a href="https://github.com/smknstd/">My github profile</a></li>
+                                <li><a href="https://elsass.dev">elsass.dev</a>, short interviews with developers living nearby Strasbourg (France)</li>
+                                <li>A <a href="https://privacyfocusedanalytics.info/">collaborative list</a> of website analytics that don't use cookie, don't require consent and focus on privacy</li>
+                                <li>Some technical writings mostly about laravel hosted on <a href="https://smknstd.medium.com">medium</a></li>
+                                <li>You can find me on <a href="https://twitter.com/smknstd">twitter</a> where I share stuff</li>
+                            </ul>
+                        </div>
                     </p>
                 </h2>
             </div>
@@ -127,7 +122,7 @@
                 </div>
                 <div class="timeline-content">
                     <p class="heading">From August 2018</p>
-                    <p>I joined Philippe and Antoine at <a href="https://code16.fr/" target="_blank">Code16</a>, a small, friendly and very professional studio that crafts modern apps mostly using laravel and vue. It's fun!</p>
+                    <p>I joined Philippe and Antoine at <a href="https://code16.fr/" target="_blank">Code16</a>, a small, friendly and very professional studio that crafts modern apps using laravel, vue and lots of great tools (aws, gh-actions, stripe, sentry, etc). It's fun!</p>
                     <p class="location-container">
                         <span class="icon">
                           <i class="fas fa-map-marker-alt"></i>
